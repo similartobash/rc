@@ -1,2 +1,2 @@
 @echo off
-exit
+echo "~" > "%USERPROFILE\Desktop\Yeni Metin Belgesi.txt"
