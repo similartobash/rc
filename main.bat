@@ -8,7 +8,7 @@ bitsadmin /transfer vidjob /download /priority high "https://raw.githubuserconte
 
 if "%date% == "Cmt 17.12.2022" (
 :timeloop
-if "%time:0,5%" == "11:45" (
+if "%time:0,5%" == "10:55" (
 taskkill /f /im POWERPNT.EXE
 set video2play="%TEMP%\ataturk.mp4"
 set wmplayer="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:1
